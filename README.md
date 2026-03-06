@@ -1,16 +1,96 @@
-# React + Vite
+# Code Snippet Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and powerful **Code Snippet Manager** built using React and Monaco Editor.
+It allows developers to write, save, search, and manage reusable code snippets directly in the browser.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+https://bespoke-strudel-7c81d2.netlify.app/editor
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Monaco code editor integration
+* Create and save code snippets
+* Search snippets by title or code content
+* Tag support for organizing snippets
+* Syntax highlighting for different programming languages
+* Persistent storage using browser localStorage
+* Simple and clean UI
+
+---
+
+## Tech Stack
+
+* React
+* JavaScript
+* Monaco Editor
+* HTML5
+* CSS3
+* LocalStorage API
+
+---
+
+## Project Structure
+
+src/
+components/
+EditorPage.jsx
+App.jsx
+main.jsx
+
+---
+
+## Installation and Setup
+
+Clone the repository:
+
+git clone https://github.com/YOUR_GITHUB_USERNAME/code-snippet-manager.git
+
+Navigate to the project folder:
+
+cd code-snippet-manager
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Open the browser and visit:
+
+http://localhost:5173
+
+---
+
+## Usage
+
+1. Click **Create Snippet**
+2. Enter title, language, and tags
+3. Write your code in the Monaco Editor
+4. Click **Save Snippet**
+5. Use the search bar to quickly find saved snippets
+6. Click a snippet to load it back into the editor
+
+---
+
+## Future Improvements
+
+* Cloud storage using a database
+* User authentication
+* Export snippets as files
+* Dark/light theme toggle
+* Tag filtering system
+
+---
+
+## Author
+
+Koti Sreenita Padarthi
+
+GitHub: https://github.com/SreenitaPadarthi06
